@@ -122,6 +122,7 @@ public class ChatServer {
 
                 // Accept messages from this client and broadcast them.
                 // Ignore other clients that cannot be broadcasted to.
+                //TODO dodělat posílání zrpáv pouze jednomu klientovi
                 while (true) {
                     String input = in.readLine();
                     if (input == null) {
